@@ -1,0 +1,9 @@
+.MenuHidden{
+   margin-left:-30vw;
+}
+.show{
+    background:lightgreen;
+}
+.hidden{
+    background:lightcoral;
+}

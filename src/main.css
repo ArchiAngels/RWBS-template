@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Favorite;
+    src: url('../styles/Wire_One/WireOne-Regular.ttf');
+  }
+body{
+    overflow: hidden;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Favorite;
+    font-size:2rem;
+}
+:root{
+    --red:#009fff;
+}
