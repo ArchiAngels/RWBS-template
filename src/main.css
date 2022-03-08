@@ -1,7 +1,30 @@
 @font-face {
-    font-family: Favorite;
+    font-family: 'Favorite';
     src: url('../styles/Wire_One/WireOne-Regular.ttf');
-  }
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montlui';
+    font-weight: 300;
+    src: url('../styles/Montserrat1/static/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: 'Montlui';
+    font-weight: 500;
+    src: url('../styles/Montserrat1/static/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: 'Montlui';
+    font-weight: 400;
+    src: url('../styles/Montserrat1/static/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montlui';
+    font-weight: 700;
+    src: url('../styles/Montserrat1/static/Montserrat-Bold.ttf');
+}
 body{
     overflow: hidden;
 }
@@ -9,7 +32,8 @@ body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Favorite;
+    font-family: 'Montlui';
+    font-weight: 400;
     font-size:2rem;
 }
 :root{

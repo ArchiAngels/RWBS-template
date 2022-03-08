@@ -12,9 +12,9 @@ http.createServer((req,res)=>{
     }else if(req.url == '/dist/main.bundled.js'){
         res.write(fs.readFileSync('./dist/main.bundled.js'));
         res.end()
-    }else if(req.url == '/dist/d16bc6332024d56992d6.ttf'){
+    }else if(req.url.endsWith('.ttf')){
         
-        res.write(fs.readFileSync('./dist/d16bc6332024d56992d6.ttf'));
+        res.write(fs.readFileSync(`.${req.url}`));
         res.end()
     }
     else{
